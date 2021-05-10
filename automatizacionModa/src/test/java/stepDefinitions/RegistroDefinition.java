@@ -20,6 +20,7 @@ public class RegistroDefinition {
     @When(": Registrar los datos del usuario")
     public void registrarLosDatosDelUsuario() {
         registroStep.ingresarARegistros();
+		registroStep.registrarLosDatosDeUsuario();
     }
 
     @Then(": El sistema debe de notificarme que quedo listo el registro")

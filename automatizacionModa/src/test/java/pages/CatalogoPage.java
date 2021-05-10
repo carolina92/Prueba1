@@ -26,7 +26,6 @@ public class CatalogoPage extends PageObject {
         withAction().moveToElement(btnAgregarCompra).build().perform();
         withAction().click(btnAgregarCompra).build().perform();
         btnCheckout.click();
-        System.out.println("ejecuto");
     }
 
 

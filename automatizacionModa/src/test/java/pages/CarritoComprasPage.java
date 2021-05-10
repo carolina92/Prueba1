@@ -19,7 +19,6 @@ public class CarritoComprasPage extends PageObject {
         btnCheckout.click();
         inputEmail.sendKeys(correo);
         btnCreateAccount.click();
-        System.out.println("llego a registro");
     }
 
 }
